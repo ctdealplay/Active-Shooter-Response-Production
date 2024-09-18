@@ -1,0 +1,1074 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: DealPlayVRVoice
+  m_EditorClassIdentifier: 
+  _clientAccessToken: FVYJJ4I5RC2H765VFNMQUU64XGMZYAGG
+  _appInfo:
+    name: security
+    id: 1006734840339632
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-07-15T22:30:55-0700
+    trainingStatus: 1
+    lastTrainDuration: 93
+    lastTrainedAt: 2024-05-07T06:29:04-0700
+    nextTrainAt: 2024-05-07T06:27:31-0700
+    intents:
+    - id: 163142336841723
+      name: Are_you_hurt
+      entities: []
+    - id: 603571961871024
+      name: Guard_BY1_1
+      entities: []
+    - id: 3737340979926535
+      name: Guard_BY1_10
+      entities: []
+    - id: 6158003960969650
+      name: Guard_BY1_11
+      entities: []
+    - id: 1549578585870718
+      name: Guard_BY1_12
+      entities: []
+    - id: 740688704090411
+      name: Guard_BY1_13
+      entities: []
+    - id: 276214985460739
+      name: Guard_BY1_14
+      entities: []
+    - id: 305727225773351
+      name: Guard_BY1_15
+      entities: []
+    - id: 2087140814972568
+      name: Guard_BY1_16
+      entities: []
+    - id: 2343131585875033
+      name: Guard_BY1_17
+      entities: []
+    - id: 295262086844259
+      name: Guard_BY1_18
+      entities: []
+    - id: 887570742625594
+      name: Guard_BY1_2
+      entities: []
+    - id: 332571749619910
+      name: Guard_BY1_3
+      entities: []
+    - id: 910662087078456
+      name: Guard_BY1_4
+      entities: []
+    - id: 3693407254220496
+      name: Guard_BY1_5
+      entities: []
+    - id: 1707944569700930
+      name: Guard_BY1_6
+      entities: []
+    - id: 1754619775050611
+      name: Guard_BY1_7
+      entities: []
+    - id: 691477129743853
+      name: Guard_BY1_8
+      entities: []
+    - id: 799888751947463
+      name: Guard_BY1_9
+      entities: []
+    - id: 731743062174944
+      name: Guard_BY2_1
+      entities: []
+    - id: 653022550329802
+      name: Guard_BY2_2
+      entities: []
+    - id: 1437144200563464
+      name: Guard_BY2_3
+      entities: []
+    - id: 238731679240957
+      name: Guard_BY2_4
+      entities: []
+    - id: 7562575247108031
+      name: Guard_BY2_5
+      entities: []
+    - id: 355874647141579
+      name: Guard_BY2_6
+      entities: []
+    - id: 789638142924561
+      name: Guard_BY2_7
+      entities: []
+    - id: 1388365628436744
+      name: Guard_BY2_8
+      entities: []
+    - id: 2283139841880988
+      name: Guard_BY2_9
+      entities: []
+    - id: 383359807453795
+      name: Guard_Bystander_1
+      entities: []
+    - id: 1072576680757525
+      name: Guard_Bystander_10
+      entities: []
+    - id: 390240843360417
+      name: Guard_Bystander_11
+      entities: []
+    - id: 3596982930628696
+      name: Guard_Bystander_12
+      entities: []
+    - id: 671743808102743
+      name: Guard_Bystander_2
+      entities: []
+    - id: 1019296702697141
+      name: Guard_Bystander_3
+      entities: []
+    - id: 1063732301441685
+      name: Guard_Bystander_4
+      entities: []
+    - id: 1051410216097299
+      name: Guard_Bystander_5
+      entities: []
+    - id: 2033512407023239
+      name: Guard_Bystander_6
+      entities: []
+    - id: 287442410938783
+      name: Guard_Bystander_7
+      entities: []
+    - id: 1771590999986935
+      name: Guard_Bystander_8
+      entities: []
+    - id: 1718565081963648
+      name: Guard_Bystander_9
+      entities: []
+    - id: 3255551248079591
+      name: Guard_Flee_1
+      entities: []
+    - id: 680406824274020
+      name: Guard_Flee_2
+      entities: []
+    - id: 1925675021181303
+      name: Guard_Flee_3
+      entities: []
+    - id: 641780217969845
+      name: Guard_Flee_4
+      entities: []
+    - id: 699373235665172
+      name: Guard_Flee_5
+      entities: []
+    - id: 278017151591095
+      name: Guard_Flee_6
+      entities: []
+    - id: 332397176417622
+      name: Guard_Flee_7
+      entities: []
+    - id: 6236475583122300
+      name: Guard_Flee_8
+      entities: []
+    - id: 348902044558160
+      name: Guard_Flee_9
+      entities: []
+    - id: 1095713088281727
+      name: Guard_Insis_1
+      entities: []
+    - id: 1049941709569339
+      name: Guard_Insis_2
+      entities: []
+    - id: 1080829196292211
+      name: Guard_Insis_3
+      entities: []
+    - id: 1120499295617242
+      name: Guard_Insis_4
+      entities: []
+    - id: 1077287780187704
+      name: Guard_Insis_5
+      entities: []
+    - id: 1534084247349034
+      name: Guard_Insis_6
+      entities: []
+    - id: 2302685543257923
+      name: Guard_Insis_7
+      entities: []
+    - id: 307803898326467
+      name: Guard_Insis_8
+      entities: []
+    - id: 740680848122667
+      name: Guard_Insis_9
+      entities: []
+    - id: 331939406330350
+      name: Guard_Law_1
+      entities: []
+    - id: 782015407302432
+      name: Guard_Law_2
+      entities: []
+    - id: 754357219917658
+      name: Guard_Law_3
+      entities: []
+    - id: 3705652493047323
+      name: Guard_Law_4
+      entities: []
+    - id: 898861181555312
+      name: Guard_Law_5
+      entities: []
+    - id: 365338116189829
+      name: Guard_Law_6
+      entities: []
+    - id: 1094944661646565
+      name: Guard_Law_7
+      entities: []
+    - id: 1113859076462501
+      name: Guard_Law_8
+      entities: []
+    - id: 1164152844546736
+      name: Guard_Law_9
+      entities: []
+    - id: 250832744660719
+      name: Guard_Man_Dialouge1
+      entities: []
+    - id: 1756739868080249
+      name: Guard_Man_Dialouge10
+      entities: []
+    - id: 344149448211828
+      name: Guard_Man_Dialouge11
+      entities: []
+    - id: 333417149307418
+      name: Guard_Man_Dialouge12
+      entities: []
+    - id: 363562152720150
+      name: Guard_Man_Dialouge13
+      entities: []
+    - id: 308559218659116
+      name: Guard_Man_Dialouge14
+      entities: []
+    - id: 1828915400890302
+      name: Guard_Man_Dialouge15
+      entities: []
+    - id: 889063592412328
+      name: Guard_Man_Dialouge2
+      entities: []
+    - id: 327641146573472
+      name: Guard_Man_Dialouge3
+      entities: []
+    - id: 211935368521421
+      name: Guard_Man_Dialouge4
+      entities: []
+    - id: 1467956294048290
+      name: Guard_Man_Dialouge5
+      entities: []
+    - id: 304411805809231
+      name: Guard_Man_Dialouge6
+      entities: []
+    - id: 1641586612999471
+      name: Guard_Man_Dialouge7
+      entities: []
+    - id: 1538467073660505
+      name: Guard_Man_Dialouge8
+      entities: []
+    - id: 1001206927842389
+      name: Guard_Man_Dialouge9
+      entities: []
+    - id: 1184802732834620
+      name: Guard_Medical_1
+      entities: []
+    - id: 1096857448339094
+      name: Guard_Medical_2
+      entities: []
+    - id: 1421827568764999
+      name: Guard_Medical_3
+      entities: []
+    - id: 346308578183378
+      name: Guard_Medical_4
+      entities: []
+    - id: 1044185543554319
+      name: Guard_Medical_5
+      entities: []
+    - id: 1067005414544153
+      name: Guard_Medical_6
+      entities: []
+    - id: 1173955370252862
+      name: Guard_Medical_7
+      entities: []
+    - id: 194639897005064
+      name: Guard_Medical_8
+      entities: []
+    - id: 1399242940961959
+      name: Guard_Medical_9
+      entities: []
+    - id: 386727260463700
+      name: Guard_Victim1_1
+      entities: []
+    - id: 878338777405460
+      name: Guard_Victim1_2
+      entities: []
+    - id: 238645902588348
+      name: Guard_Victim1_3
+      entities: []
+    - id: 659665786372913
+      name: Guard_Victim1_4
+      entities: []
+    - id: 1598971267578538
+      name: Guard_Victim1_5
+      entities: []
+    - id: 347535064747870
+      name: Guard_Victim1_6
+      entities: []
+    - id: 786537033308697
+      name: Guard_Victim1_7
+      entities: []
+    - id: 899024821810807
+      name: Guard_Victim1_8
+      entities: []
+    - id: 6867157546734611
+      name: Guard_Victim1_9
+      entities: []
+    - id: 902397331238151
+      name: Guard_Victim2_1
+      entities: []
+    - id: 207797025723490
+      name: Guard_Victim2_10
+      entities: []
+    - id: 2070383533314821
+      name: Guard_Victim2_11
+      entities: []
+    - id: 749857543164590
+      name: Guard_Victim2_12
+      entities: []
+    - id: 849399026968535
+      name: Guard_Victim2_13
+      entities: []
+    - id: 922205202798207
+      name: Guard_Victim2_14
+      entities: []
+    - id: 812698360614604
+      name: Guard_Victim2_15
+      entities: []
+    - id: 1321401409259982
+      name: Guard_Victim2_16
+      entities: []
+    - id: 378104528101874
+      name: Guard_Victim2_17
+      entities: []
+    - id: 384080314082834
+      name: Guard_Victim2_18
+      entities: []
+    - id: 7103132833057499
+      name: Guard_Victim2_2
+      entities: []
+    - id: 598473195744819
+      name: Guard_Victim2_3
+      entities: []
+    - id: 1427875267937068
+      name: Guard_Victim2_4
+      entities: []
+    - id: 888428795993040
+      name: Guard_Victim2_5
+      entities: []
+    - id: 865068155361868
+      name: Guard_Victim2_6
+      entities: []
+    - id: 2412612502262626
+      name: Guard_Victim2_7
+      entities: []
+    - id: 1324760828241365
+      name: Guard_Victim2_8
+      entities: []
+    - id: 386250303805431
+      name: Guard_Victim2_9
+      entities: []
+    - id: 747178293939044
+      name: Guard_Victim3_1
+      entities: []
+    - id: 696780175899743
+      name: Guard_Victim3_2
+      entities: []
+    - id: 716752400405400
+      name: Guard_Victim3_3
+      entities: []
+    - id: 1720370545115372
+      name: Guard_Victim3_4
+      entities: []
+    - id: 933455494966869
+      name: Guard_Victim3_5
+      entities: []
+    - id: 678151461158910
+      name: Guard_Victim3_6
+      entities: []
+    - id: 1835646203552021
+      name: Guard_Victim3_7
+      entities: []
+    - id: 1914483625614092
+      name: Guard_Victim3_8
+      entities: []
+    - id: 1510633342831362
+      name: Guard_Victim3_9
+      entities: []
+    - id: 646224044390226
+      name: Guard_Women_Dialogue1
+      entities: []
+    - id: 2267629180099855
+      name: Guard_Women_Dialouge2
+      entities: []
+    - id: 847293477019772
+      name: Guard_Women_Dialouge3
+      entities: []
+    - id: 869995748029077
+      name: Guard_Women_Dialouge4
+      entities: []
+    - id: 1386740605250091
+      name: Guard_Women_Dialouge5
+      entities: []
+    - id: 341654534930439
+      name: Guard_Women_Dialouge6
+      entities: []
+    - id: 6640350519347721
+      name: Guard_Women_Dialouge7
+      entities: []
+    - id: 639752218344649
+      name: Guard_Women_Dialouge8
+      entities: []
+    - id: 290193810595586
+      name: Guard_Women_Dialouge9
+      entities: []
+    - id: 1787268578394959
+      name: Is_there_anybody_else_in_here
+      entities: []
+    - id: 3729636143933939
+      name: Where_is_everybody_else
+      entities: []
+    - id: 710734467735984
+      name: Where_is_that_guy
+      entities: []
+    - id: 773084637907521
+      name: Where_is_the_shooter
+      entities: []
+    - id: 688709239971880
+      name: continue
+      entities: []
+    - id: 2637088519781040
+      name: how_are_you_going
+      entities: []
+    entities:
+    - name: ChessBoardLetter
+      id: 974546596949207
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: ChessBoardLetter
+        id: 295267569966711
+      keywords:
+      - keyword: A
+        synonyms: []
+      - keyword: B
+        synonyms: []
+      - keyword: C
+        synonyms: []
+      - keyword: D
+        synonyms: []
+      - keyword: E
+        synonyms: []
+      - keyword: F
+        synonyms: []
+      - keyword: G
+        synonyms: []
+      - keyword: H
+        synonyms: []
+    - name: ColorName
+      id: 244824338246025
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: ColorName
+        id: 238883998875388
+      keywords:
+      - keyword: black
+        synonyms: []
+      - keyword: blue
+        synonyms: []
+      - keyword: brown
+        synonyms: []
+      - keyword: gold
+        synonyms: []
+      - keyword: green
+        synonyms: []
+      - keyword: magenta
+        synonyms: []
+      - keyword: maroon
+        synonyms: []
+      - keyword: orange
+        synonyms: []
+      - keyword: pink
+        synonyms: []
+      - keyword: purple
+        synonyms: []
+      - keyword: red
+        synonyms: []
+      - keyword: violet
+        synonyms: []
+      - keyword: white
+        synonyms: []
+      - keyword: yellow
+        synonyms: []
+    - name: ShapeName
+      id: 1619388471923019
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: ShapeName
+        id: 888624032181279
+      keywords:
+      - keyword: capsule
+        synonyms: []
+      - keyword: cube
+        synonyms: []
+      - keyword: cylinder
+        synonyms: []
+      - keyword: sphere
+        synonyms: []
+    traits: []
+    versionTags: []
+    voices:
+    - name: wit$British Butler
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cael
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cam
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Carl
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cartoon Baby
+      locale: en_US
+      gender: nonbinary
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cartoon Kid
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cartoon Villain
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cockney Accent
+      locale: en_GB
+      gender: nonbinary
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cody
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Colin
+      locale: en_CA
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Connor
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Disaffected
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Hollywood
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Kenyan Accent
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Overconfident
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Pirate
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Railey
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Remi
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Rosie
+      locale: en_CA
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Rubie
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Southern Accent
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Surfer
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Trendy
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Whimsical
+      locale: en_GB
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+    - name: wit$Wizard
+      locale: en_GB
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+      supported_features:
+      - style
+      - pitch
+      - speed
+      - sfx
+      - viseme_events
+      - phoneme_events
+      - word_events
+  _configData:
+  - {fileID: 4484860429694211687}
+  _configurationId: 9bf321c0-d91c-42ba-81cf-6d7fa74cbf80
+  _requestType: 0
+  _requestTimeoutMs: 40000
+  endpointConfiguration:
+    _uriScheme: 
+    _authority: 
+    _port: 0
+    _witApiVersion: 
+    _message: 
+    _speech: 
+    _dictation: 
+    _synthesize: 
+    _event: 
+    _converse: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-423ccf61-2b44-4667-bb43-77dcbcdcb4e1.json
+  excludedAssemblies: []
+  relaxedResolution: 1
+--- !u!114 &4484860429694211687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
+  m_Name: WitComposerData
+  m_EditorClassIdentifier: 
+  canvases: []

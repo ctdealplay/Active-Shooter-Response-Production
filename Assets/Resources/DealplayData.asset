@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbde8014eab2a540a372a9e559c26ce, type: 3}
+  m_Name: DealplayData
+  m_EditorClassIdentifier: 
+  DealplayList:
+  - SceneName: ActiveShooter
+    SceneReference:
+      m_AssetGUID: edf92fccbba7d5546a93afa691d8c59c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - SceneName: DC_Main
+    SceneReference:
+      m_AssetGUID: 0a356ed401602f747838970ccf1458bc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

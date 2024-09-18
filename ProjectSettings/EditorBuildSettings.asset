@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Drone Controller/Scenes/DronePlayground (OpenVR).unity
+    guid: 2afa37533659ea543a316b3dc0fc3aa5
+  - enabled: 0
+    path: Assets/Drone Controller/Scenes/DronePlayground vr lite.unity
+    guid: ee24867cfbab1274ca2b8743a4459377
+  - enabled: 0
+    path: Assets/Drone Controller/Scenes/DronePlayground.unity
+    guid: 24633e6ffc8c39d4da535108b7f275bb
+  - enabled: 0
+    path: Assets/Drone Controller/Scenes/DC_Main.unity
+    guid: 0a356ed401602f747838970ccf1458bc
+  - enabled: 0
+    path: Assets/Samples/Meta MR Utility Kit/67.0.0/Virtual Home/VirtualHome.unity
+    guid: 89c9f2977ebcf294fabcd8a4b23e6858
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/67.0.0/Sample Scenes/VirtualKeyboard.unity
+    guid: c9684441ee1da1244a223118fdaa5d13
+  - enabled: 1
+    path: Assets/_dealPlay/Scenes/DealPlayLibrary.unity
+    guid: ae2218bb060de974e93c8528ba8112a3
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK Essentials/67.0.0/UnityXR Integration/Scenes/UnityXRComprehensiveRigExample.unity
+    guid: 1c3839a1070e4a14ab46e590c49bec68
+  - enabled: 0
+    path: Assets/ActiveShooter/ActiveShooter.unity
+    guid: edf92fccbba7d5546a93afa691d8c59c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fdc09fb4b5a6515449ef0534e4821317, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: ef7487ae56d1b604ca4683d2fe40510b, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 140129fa8530e5545b61262a16de5d82, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d12cefc5949fed649bec91ba9c8c7246, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0adc17112d1089a4ba43e9e62854190f, type: 2}

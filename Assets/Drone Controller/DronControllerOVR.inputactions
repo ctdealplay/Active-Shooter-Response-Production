@@ -1,0 +1,34 @@
+{
+    "name": "DronControllerOVR",
+    "maps": [
+        {
+            "name": "DroneControlle",
+            "id": "f830573d-7657-4df8-b2a3-e380e0a42672",
+            "actions": [
+                {
+                    "name": "PrimaryButton",
+                    "type": "Button",
+                    "id": "f058ea69-776f-46b8-98ff-c593c1774395",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "80e9945b-4148-4bd8-9d20-5dd03f76ba10",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

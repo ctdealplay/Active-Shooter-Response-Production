@@ -1,0 +1,1538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DroneController
+  m_EditorClassIdentifier: 
+  m_GroupName: DroneController
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 845940462b14e54408fe2e0ed9c87eb6
+  m_SerializeEntries:
+  - m_GUID: 9ae7a41f71f8cc64d94a192939257fd7
+    m_Address: Assets/Drone Controller/DronControllerOVR.inputactions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68e5627b54007c2479fa2f34bf8e12c9
+    m_Address: Assets/Drone Controller/Prefabs/Spark Particle Effect.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22b4fa57ff7ee2848a99ad35d1009dcd
+    m_Address: Assets/Drone Controller/Scenes/DronePlayground (Mobile) VRSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d60725a6dc484e4eb5050234279c0c4
+    m_Address: Assets/Drone Controller/Prefabs/Joystick UI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24633e6ffc8c39d4da535108b7f275bb
+    m_Address: Assets/Drone Controller/Scenes/DronePlayground.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf3a0451e5a2ec14cb3a6b45e635f4c8
+    m_Address: Assets/Drone Controller/Prefabs/VR 3DJoystick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5979b5457c47c64ba4599d83183fbc7
+    m_Address: Assets/Drone Controller/Scenes/DronePlayground (Mobile).unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2afa37533659ea543a316b3dc0fc3aa5
+    m_Address: Assets/Drone Controller/Scenes/DronePlayground (OpenVR).unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee24867cfbab1274ca2b8743a4459377
+    m_Address: Assets/Drone Controller/Scenes/DronePlayground vr lite.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80007f6fbd341984eaa3129663c98764
+    m_Address: Assets/Drone Controller/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f20ed51a38c7d24b9f7489efd15bc7e
+    m_Address: Assets/Drone Controller/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a67ebdcb2b4524db5f172c6355cd53
+    m_Address: Assets/Drone Controller/Meshes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03e22a23fffbcae46b7bb7d5934fa80f
+    m_Address: Assets/Drone Controller/Misc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed7aeb8ca9694534cbed7f98fedb7cf5
+    m_Address: Assets/Drone Controller/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1d853c19a918fa4a9a76bacbd004396
+    m_Address: Assets/Drone Controller/Scenes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07aec342da5d8b14f8d335d6874d5cac
+    m_Address: Assets/Drone Controller/Shaders
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7214df99b5ba72344bbf88a69f58e0b7
+    m_Address: Assets/Drone Controller/Sprites
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e8077ec787228e4a93ebdc9167896b1
+    m_Address: Assets/Drone Controller/Textures
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b1fc52ba88a3a439115acf0be3795c
+    m_Address: Assets/Drone Controller/Animations/blue-red.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 931a000bfb86fb34aa4e375ed3d0fa62
+    m_Address: Assets/Drone Controller/Animations/DC_CloseUIPanel.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f6fcee0064be4b44b93291cf3f8fb5c
+    m_Address: Assets/Drone Controller/Animations/DC_OpenUIPanel.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a335c84173b92564ea94d961015d65bb
+    m_Address: Assets/Drone Controller/Animations/DC_PanelAnimatorController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe3f664e9c633404085147dae60fddf2
+    m_Address: Assets/Drone Controller/Animations/fan.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 651d7a84f2dfb734587afd3047d630e0
+    m_Address: Assets/Drone Controller/Animations/red-blue.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 386326bd67e6d894c994c6d644e94827
+    m_Address: Assets/Drone Controller/Audio/Sequence_1/Drone_Asset_Inspection_1_3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 024f08add4c43854592d4ea8201a4bc9
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_1_2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 954e874ab57908f488581177cd9ffb58
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_2_2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebd7ecfd858e93f4fab343a8507919d0
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_2_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa1ad1eaca76f34183d926c08bf2cdb
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_2_3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fa20563ee6d77d47a1e596813c4402d
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_2_4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8555288e5a966346b0cd4b02108cf1d
+    m_Address: Assets/Drone Controller/Audio/Sequence_2/Drone_Asset_Inspection_2_2_5.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc64df549bc6b7d438eaf9b5d8dc7fe7
+    m_Address: Assets/Drone Controller/Materials/_BumbleBee electric.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b850f26a31a37c245a816a1cbc1253ef
+    m_Address: Assets/Drone Controller/Materials/_BumbleBee golden.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95688e0a50293674c822f542fb1f52dc
+    m_Address: Assets/Drone Controller/Materials/_BumbleBee jungle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcf49fdf4ea6a154a95314f7857bbb98
+    m_Address: Assets/Drone Controller/Materials/_BumbleBee jungle Variant.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f9ad075b7fc65049a27c8f0354bb6b4
+    m_Address: Assets/Drone Controller/Materials/_BumbleBee silver.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50af40591e8aba446a0779b3cabf5eee
+    m_Address: Assets/Drone Controller/Materials/_Quad desert recon.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 962cb10569406a84e8e4f6ee4ae11c93
+    m_Address: Assets/Drone Controller/Materials/_Quad disco.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2027eff619e1004687c324b7b47ef29
+    m_Address: Assets/Drone Controller/Materials/_Quad drone patrol.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15be70cfdf9af6042b31be0b5cc09137
+    m_Address: Assets/Drone Controller/Materials/_Quad space probe.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ca9e1570bed364c913deb30be41b61
+    m_Address: Assets/Drone Controller/Materials/_Quad drone patrol animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87617a597ba8cfc4a93ceeed9f107d4d
+    m_Address: Assets/Drone Controller/Materials/_ToadMaterial ladybug.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e8225c679c8c484485c904632fa3394
+    m_Address: Assets/Drone Controller/Materials/_ToadMaterial clownfish.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e155e70fb9ca7b4bb6b28e622bfde37
+    m_Address: Assets/Drone Controller/Materials/_Quad space probe animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da84935a5c05bda48bbb246c89121d1f
+    m_Address: Assets/Drone Controller/Materials/_ToadMaterial warhawk.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7adf3622efc3f349a2ce58420aa148d
+    m_Address: Assets/Drone Controller/Materials/_ToadMaterial racecar.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1536a9e8a440774d8395c356bf1433b
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial alien-animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1620f95310b2f4844b032a918a2825b1
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial alien.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f98f9d84b5851b5499cb018b5708c6e0
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial ancient.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 395fedaa826b5ef4cb536c6d71b9a415
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial ancient Variant.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69d08de790a0ed842bbb2d3b1acc80a6
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial ancient-animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b060b4aa907b0e444a1f7378a1000de3
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial crystal.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72be51162da1b384c9876bfd13dbca5c
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial crystal-animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74fee709f48ffc745b5e796b1d665c62
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial marine.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b408cc5041d08f848a948ac2a57f09e6
+    m_Address: Assets/Drone Controller/Materials/_UFOMaterial marine-animated.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a15c4fc59012e247a22f6679c3a0b6e
+    m_Address: Assets/Drone Controller/Materials/Badge professional assets.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2d3fb8ace29a6842a0ea7a9e9434afa
+    m_Address: Assets/Drone Controller/Materials/BeamMaterial cyan.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f742b6f3d2ee8d24989b72f52599a78b
+    m_Address: Assets/Drone Controller/Materials/BeamMaterial lime.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e452490bd2dcfa489f6cb935cdbf0bd
+    m_Address: Assets/Drone Controller/Materials/BeamMaterial red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d38dbd0eaee4e1343ad3e81485747fb8
+    m_Address: Assets/Drone Controller/Materials/BeamMaterial yellow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e77496fefcd06584bb6b266842a1bb38
+    m_Address: Assets/Drone Controller/Materials/Cannon Inside.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7797a858ac6945343b940b6d6cebe07d
+    m_Address: Assets/Drone Controller/Materials/Black.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db771be6b3f4cd40b0c5ccc8de4d679
+    m_Address: Assets/Drone Controller/Materials/Cannon Outside.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aecab84391f9654da9584ceafd2c004
+    m_Address: Assets/Drone Controller/Materials/CannonBall Metalic.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7251b33f22dc4874d88aa3ced9c94877
+    m_Address: Assets/Drone Controller/Materials/CannonBall RimGlow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f840f71d7c23c14284514e588e25624
+    m_Address: Assets/Drone Controller/Materials/Cubes.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f6ab7dac69c1cd418d6a07f7073a49f
+    m_Address: Assets/Drone Controller/Materials/DC_Fadding_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf2a71174eb7b5043ab3b24b9572ca7b
+    m_Address: Assets/Drone Controller/Materials/Domino 52.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6f4488e0354adf45a36c3342520dff7
+    m_Address: Assets/Drone Controller/Materials/Domino 52 Variant.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fad50476026710441af0b6334957098b
+    m_Address: Assets/Drone Controller/Materials/Domino 63.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baf40abdd6302124181f40e820ffa235
+    m_Address: Assets/Drone Controller/Materials/EmitRed.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f95cd43c6a8140441b076d5824d89cb2
+    m_Address: Assets/Drone Controller/Materials/FanMain.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08eee59cae9c53f408e5c4d4e0272c51
+    m_Address: Assets/Drone Controller/Materials/FanSwitch.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcfa181398f4d2a4dad3db17e6a2399c
+    m_Address: Assets/Drone Controller/Materials/Goalie.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcbfc8c62684989419ccaf3023a4388b
+    m_Address: Assets/Drone Controller/Materials/Grass Mobile.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee8abd11c93043443bf458f3927c2f6e
+    m_Address: Assets/Drone Controller/Materials/Grey.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4987437bccdf8624b8dcf51a607e077d
+    m_Address: Assets/Drone Controller/Materials/HardParticle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bff705c678384ce40baca6892b43ce74
+    m_Address: Assets/Drone Controller/Materials/Logo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0234402026ba404b8d3ff3583473273
+    m_Address: Assets/Drone Controller/Materials/PlatformLogos.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59a3ab001a5f3024c96273999ac3c041
+    m_Address: Assets/Drone Controller/Materials/Projector cyan.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6b1fb4226e24604d917fdbd8aa54c22
+    m_Address: Assets/Drone Controller/Materials/Projector purple.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fb28ed32e85b1149a12bc9a91d59647
+    m_Address: Assets/Drone Controller/Materials/Projector white.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4acb15f3d2e711a4689a7fe12fb03936
+    m_Address: Assets/Drone Controller/Materials/Red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6f444f8eb13b924b9b64848dc0ca7d2
+    m_Address: Assets/Drone Controller/Materials/Rock Mobile.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e8ad8594f255a3418cd68ff4271d957
+    m_Address: Assets/Drone Controller/Materials/SoccerBall.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58e6a0b5af82e744b9f429f36b9c2deb
+    m_Address: Assets/Drone Controller/Materials/SoccerNet Particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaab1ac7d6fa3464b942d9ce27c03795
+    m_Address: Assets/Drone Controller/Materials/SoftDot Particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33d53ee7195bc6c40a2b1c6b30aae2fc
+    m_Address: Assets/Drone Controller/Materials/SoftSquare Particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4851b3c65c22b5b449b35a115a3acb87
+    m_Address: Assets/Drone Controller/Materials/TrafficCone.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aad236de9b6f9b4ba5c6597dda95f9e
+    m_Address: Assets/Drone Controller/Materials/VertexAlpha.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6aba460171002040b131817735f6804
+    m_Address: Assets/Drone Controller/Materials/ViveDroneRemote.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72c9818cb12906a41bb5b7e6b7a7ced2
+    m_Address: Assets/Drone Controller/Meshes/_FBX Mesh BumbleBee.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 199c8c7eb08c3e34cbdc1493fe811a8a
+    m_Address: Assets/Drone Controller/Meshes/_FBX Mesh Quad.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44c35ed84c95ed54dab1e24fdbe4b660
+    m_Address: Assets/Drone Controller/Meshes/_FBX Mesh Toad.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4170d0c484787fb4d809edf70e0419e6
+    m_Address: Assets/Drone Controller/Meshes/_FBX Mesh UFO.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f918ef06f102a54da4335c52a6223a1
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Ball.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79d547bffe1d4994c8772db96c0063a9
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Cannon.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e238eaa176a4c24abc1809c9f1cd8e3
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Domino.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89c6aaef656d7b845b08873e43e73322
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Goalie.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ece72ac848b6734eab30332117d7b6b
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Logo.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02c711d1d4751941a5c37a2badf95d3
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh PlatFormLogos.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15a74b6f6645c9244bc3a105d6c02b54
+    m_Address: Assets/Drone Controller/Misc/HDRI SkyLightBox Day.hdr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dad99d05727cf534783dca20c8636339
+    m_Address: Assets/Drone Controller/Misc/HDRI SkyLightBox Dusk.hdr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af8d8e340d10efa4e974ae5b2aeafcc5
+    m_Address: Assets/Drone Controller/Misc/PhyscialMaterial SoccerBall.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b72a2af3dd9b7644e94efee26d58fb6a
+    m_Address: Assets/Drone Controller/Misc/PhysicalMaterial Drone.physicMaterial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 459488d10b460384da152c5e7528c1c6
+    m_Address: Assets/Drone Controller/Misc/PostEffect Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 555ac57bd54d43945b67f4cda4e7d889
+    m_Address: Assets/Drone Controller/Misc/PostEffect Vive.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54be49313ad622b40b1127baf01d4cc7
+    m_Address: Assets/Drone Controller/Misc/ReflectionProbe-0.exr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9383a7cdbe7cea942a64220b2e0e1685
+    m_Address: Assets/Drone Controller/Misc/ReflectionProbe-1.exr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475ed8de7efbce947a30d48df94cc2d0
+    m_Address: Assets/Drone Controller/Misc/ReflectionProbe-2.exr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05c8212cd10f2444493159fcc65002a3
+    m_Address: Assets/Drone Controller/Misc/RenderMaterial DroneCamera.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61cc5d3dad73918489b8df668e9cc552
+    m_Address: Assets/Drone Controller/Misc/RenderTexture DroneCamera.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1890a38afe9af8748a8ac390a00e992a
+    m_Address: Assets/Drone Controller/Misc/Terrain Playground.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e241ab1cb3b05d144baa351615bfa1b6
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_Dirt Albedo(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f722a34c101a6f4abbe60e3ed14caa6
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_DirtGrass Albedo(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295e61ececb5b3b4aac33e0a08569e35
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh TrafficCone.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 927a1f05d922a9740bf5ab109c5b672d
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh Turbine.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d900d8cb93a93545972d1c795bf61a0
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh ViveDroneRemote.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf5f760de3b51f4899e6372ca0a06a9
+    m_Address: Assets/Drone Controller/Meshes/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dceb6f8d9d0e6841b1750ac0d7fa53b
+    m_Address: Assets/Drone Controller/Meshes/Materials/Default Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e05946242ec25d64c8f94b0e8d8bba3d
+    m_Address: Assets/Drone Controller/Misc/HDRI SkyBox Day.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93b7de7b8be016d48804265a391796b2
+    m_Address: Assets/Drone Controller/Misc/HDRI SkyBox Dusk.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2fce2ab8900da54cb8fb1bb5590a108
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_DryGrass2 Albedo(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49b6b0617aa849343b25d9818eb8167a
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_DryGrass3 Albedo(5.000,5.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d80e12820d8ee414682bec733b97f10a
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_RockyGrass
+      Albedo(3.000,3.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1089eb9231d2f55468aec2916e14ba77
+    m_Address: Assets/Drone Controller/Prefabs/_Drone BumbleBee.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 102b99c93b6fa4141b43ac9a82a68ed9
+    m_Address: Assets/Drone Controller/Prefabs/_Drone Quad.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e35abdd933df67c46a4bb0aec8fbf853
+    m_Address: Assets/Drone Controller/Prefabs/_Drone Toad.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc158dfb219fa2f4f8af1a15461a269b
+    m_Address: Assets/Drone Controller/Prefabs/_Drone UFO.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d6e59f5078b37f46b4c6ac3177cd702
+    m_Address: Assets/Drone Controller/Prefabs/CannonBall Glow.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 108061f637b47a242a8b67dec62cd75d
+    m_Address: Assets/Drone Controller/Prefabs/CannonBall Iron.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97838334b8aaedc49a3215682276f39a
+    m_Address: Assets/Drone Controller/Prefabs/DC_Button_Options.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81efa5400d6c1f341a8ca9d1daa89f99
+    m_Address: Assets/Drone Controller/Prefabs/DC_Conformation_panel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a72075aa5fb8cc042b742ccd0edba8dd
+    m_Address: Assets/Drone Controller/Prefabs/DC_HeadingWithDeacription_panel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e1cfdeaf6de2f045b022aac4b52dd2a
+    m_Address: Assets/Drone Controller/Prefabs/DC_LearningObjective_panel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d34ed4ca5b2ed4ea245a0943b229a1
+    m_Address: Assets/Drone Controller/Prefabs/DC_Narrator_panel Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 967f79d86857566478c49a6fa9ab6f9c
+    m_Address: Assets/Drone Controller/Prefabs/DC_Progress_UI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fb71646028ac3c439c7f66106d7b95e
+    m_Address: Assets/Drone Controller/Prefabs/Drone Camera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac62632a4c859864daabf89acd95db15
+    m_Address: Assets/Drone Controller/Prefabs/Drone Custom.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0696eec9621e014aaa2720b020b5ba1
+    m_Address: Assets/Drone Controller/Scenes/DroneSelection.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf9bc4cb0b0280d439b5d2d8ff6ebeaa
+    m_Address: Assets/Drone Controller/Shaders/DronePatrolAnimated.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7ee7622488e5f34f9ceaa5d1655b38b
+    m_Address: Assets/Drone Controller/Shaders/RimGlowShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5caf9d4c91bfa8247a244b488908228a
+    m_Address: Assets/Drone Controller/Shaders/SpaceProbeAnimated.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52ccf4460ba17864699f75b9ea4fa983
+    m_Address: Assets/Drone Controller/Shaders/StandardShader DoubleSided.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1009fb76b6f10b84ca5b4208311f985a
+    m_Address: Assets/Drone Controller/Shaders/StandardSpecular DoubleSided.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55fd08b051e90a4d9365b26f9cda9f7
+    m_Address: Assets/Drone Controller/Shaders/UFOAnimated.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 656cc3d7a3b6a4043ab73979113ff57c
+    m_Address: Assets/Drone Controller/Sounds/BumbleBee flying.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b79c3f9171dce94e8bbeb93de6e5bee
+    m_Address: Assets/Drone Controller/Sounds/Cannon Charging.aiff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0adc95de1f2234b9aaf6c50a4ef98f
+    m_Address: Assets/Drone Controller/Sounds/Cannon Fire.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b11dce170830fd4a8add6c93b85a9b1
+    m_Address: Assets/Drone Controller/Sounds/Day Ambient.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e60a0a3e7488404b94f9b22f01de4b9
+    m_Address: Assets/Drone Controller/Sounds/Drone impact.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5058c50e4a055da4c87eb13efe411278
+    m_Address: Assets/Drone Controller/Sounds/Night Ambient.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a33adb0c7062e4c8317cd0c758d70d
+    m_Address: Assets/Drone Controller/Sounds/Quad flying.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f40642032fe9e04a98917999601b901
+    m_Address: Assets/Drone Controller/Sounds/Quad police chatter.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d855972efa1843f44a35be93f5321fff
+    m_Address: Assets/Drone Controller/Sounds/Toad flying.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb4ecbacfe7d3694986fe07b7488173c
+    m_Address: Assets/Drone Controller/Sounds/UFO flying.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79750916f81982645bcdb32f8ef49fe3
+    m_Address: Assets/Drone Controller/Sprites/ArrowRight.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85df93d92698f62408a8169f6afd6e1c
+    m_Address: Assets/Drone Controller/Sprites/joystick.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2d9214c010ac99418bcb08cbada0ccd
+    m_Address: Assets/Drone Controller/Sprites/joystickHandle.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9185cb72c0fc7f94994689208d44b319
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Albedo 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e2b4e6623f1c5549a775fc498f5409d
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Albedo 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ed94d5bc4ec01244a70e1bd1e807606
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Albedo 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 868dc8d08d9857243a7429fc06fcd7ae
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Ambient 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c144332d34d8bec4e9a618b8e600522c
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Emissive 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6d9b5910330b3c48b19d97dba89a981
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Emissive 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb4c24af78b2784c9de2bb00993c725
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Emissive 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 318c8f9e7cb6e9b4799db13b2c89caac
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Emissive 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f187088fe10d7d44db990407e8f76a80
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Metalness.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f03620d2f0bb3af459c5044c8db1ef31
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Metalness 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a9482c526f0b004dbc730f5c9575795
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Normal 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ad6a938c0407f64d83513ecb77f1944
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Normal 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 931748c0ade91db46a67c235189f5a4c
+    m_Address: Assets/Drone Controller/Textures/_Quad albedo-diffuse 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 635679e1ec491bc44ab3f4f254e94016
+    m_Address: Assets/Drone Controller/Textures/_Quad albedo-diffuse 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a49792e591dbbdf42842e3055596dc05
+    m_Address: Assets/Drone Controller/Textures/_Quad albedo-diffuse 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0b782bc04c71044bb360dba3e1e43cc
+    m_Address: Assets/Drone Controller/Textures/_Quad albedo-diffuse 4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a91e91643730b4498eaef4935095957
+    m_Address: Assets/Drone Controller/Textures/_Quad albedo-diffuse 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9e3630e51ef87a44b927dc8c3d71e08
+    m_Address: Assets/Drone Controller/Textures/_Quad emission 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe49314df2f954648bfd04a4415f6dc5
+    m_Address: Assets/Drone Controller/Textures/_Quad emission 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c28a61c24b5d24cbb45c6efcf99301
+    m_Address: Assets/Drone Controller/Textures/_Quad height 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 141a3d387b35b7f4aafc471dd7de32df
+    m_Address: Assets/Drone Controller/Textures/_Quad metal-gloss 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06c88c84c682c3c42b68ad40c41f8a04
+    m_Address: Assets/Drone Controller/Textures/_Quad emission 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 101a6f6a9bf2ad74bbd861c8d6aa9885
+    m_Address: Assets/Drone Controller/Textures/_Quad emission 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f7ca0e3fd8dd3479e3b2b97169851f
+    m_Address: Assets/Drone Controller/Textures/_Quad emission-animated 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 017a54f884a981348a183f64b04e496d
+    m_Address: Assets/Drone Controller/Textures/_Quad emission-animated 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bff15afeb7df0a04eb68ae500ac3faf7
+    m_Address: Assets/Drone Controller/Textures/_Quad metal-gloss 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574065e72b3cb8648b1937c34a994f89
+    m_Address: Assets/Drone Controller/Textures/_Quad metal-gloss 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a451050792beff438a019c2dff3cf50
+    m_Address: Assets/Drone Controller/Textures/_Quad metal-gloss 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7867b9cf7d28c7e4aaa08ff9cb8ab34b
+    m_Address: Assets/Drone Controller/Textures/_Quad normal 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 520a821204a9c7f4c855b6d16106a70f
+    m_Address: Assets/Drone Controller/Textures/_Quad normal 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c05863bd32ca2c04890a3d3a4ceafd07
+    m_Address: Assets/Drone Controller/Textures/_Quad normal 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f8647de5ef00694b96618691a721a6d
+    m_Address: Assets/Drone Controller/Textures/_Quad normal 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 214f6607a81a8014380a6e95069805a4
+    m_Address: Assets/Drone Controller/Textures/_Quad occlusion 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6982b8d8b3d7ff84aadf71e744f673b7
+    m_Address: Assets/Drone Controller/Textures/_Toad Albedo 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33f8538bdb2aac143bedadbba5671774
+    m_Address: Assets/Drone Controller/Textures/_Toad Albedo 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ed65d577eea1fb4a91824c4a6919fa4
+    m_Address: Assets/Drone Controller/Textures/_Toad Albedo 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78440184021a1e34b91710223518f4f8
+    m_Address: Assets/Drone Controller/Textures/_Toad Albedo 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d20227f77221c74a8fdd236f795dd35
+    m_Address: Assets/Drone Controller/Textures/_Toad Ambient 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54021823603b04a4ead283ffd5190d18
+    m_Address: Assets/Drone Controller/Textures/_Toad Emissive 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51646db14a9642b44a8a88388cff72f6
+    m_Address: Assets/Drone Controller/Textures/_Toad Emissive 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 031f508aebc003d4fbaae349e7e9dcda
+    m_Address: Assets/Drone Controller/Textures/_Toad Emissive 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd348faabb389804c9548af373f8f8c5
+    m_Address: Assets/Drone Controller/Textures/_Toad Emissive 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edd25cc0319003b44812e6823971b37c
+    m_Address: Assets/Drone Controller/Textures/_Toad Normal 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60b01b42bcac30f46b4fad5371edd5ad
+    m_Address: Assets/Drone Controller/Textures/_Toad Specular 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b16d903914545f4894f35f8183b6577
+    m_Address: Assets/Drone Controller/Textures/_UFO Ambient 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bafea7194c4db15408804ec03df75367
+    m_Address: Assets/Drone Controller/Textures/_UFO Ambient 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99e9fb999ac3edf48b6644bbd921cd47
+    m_Address: Assets/Drone Controller/Textures/_UFO Diffuse 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fc7af673c5fa574eb5befb0f62a761d
+    m_Address: Assets/Drone Controller/Textures/_UFO Diffuse 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21a0318ec03ec3c4ea974bc2994f1594
+    m_Address: Assets/Drone Controller/Textures/_UFO Emmision 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0257a048488db64d854a294aad7b54a
+    m_Address: Assets/Drone Controller/Textures/_UFO Emmision 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d99470cae5c54eb429d1f59b77c0702e
+    m_Address: Assets/Drone Controller/Textures/_UFO Emmision 3.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f18a7c145667d744ab2551f85cefc2c
+    m_Address: Assets/Drone Controller/Textures/_UFO Emmision 4.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4bbceb759184864a843aad3e004d6d2
+    m_Address: Assets/Drone Controller/Textures/_UFO Normal 1.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b7076c247fdfc64088aeac3f52908a2
+    m_Address: Assets/Drone Controller/Textures/_UFO Normal 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18244620714c32446bb2e7aad9260c56
+    m_Address: Assets/Drone Controller/Textures/Badge diffuse.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2896e5fca654609458e86d48cc7ee704
+    m_Address: Assets/Drone Controller/Textures/Badge emission.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4660c84b2b6751c49817459674a3780b
+    m_Address: Assets/Drone Controller/Textures/Badge metal-gloss.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc890d707d041b4d9e34c27eb0a1df0
+    m_Address: Assets/Drone Controller/Textures/Badge normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 751448c8add2a164c840bfadb1733aec
+    m_Address: Assets/Drone Controller/Textures/Cube Emission.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c90d91d94a5b8747ae27813b798d3fd
+    m_Address: Assets/Drone Controller/Textures/Dirt Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cdb84a3653d49f4ba4b996f4e652ff4
+    m_Address: Assets/Drone Controller/Textures/DirtGrass Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea592018905e9a3478bd904dbeff26db
+    m_Address: Assets/Drone Controller/Textures/Domino25 Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ae3dca6079e1649bc7902ac9658c10
+    m_Address: Assets/Drone Controller/Textures/Domino25 Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96c11029ef0982f4eaab5712e8e8fe66
+    m_Address: Assets/Drone Controller/Textures/Domino36 Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 190e2eee625806f44b564f3f1a20733c
+    m_Address: Assets/Drone Controller/Textures/Domino36 Normal.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91301d75f973f9342b49555a48260a9b
+    m_Address: Assets/Drone Controller/Textures/DryGrass Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4840a177e4bb2b45979f39a6097ce1f
+    m_Address: Assets/Drone Controller/Textures/DryGrass2 Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1be6bb3f914bd445aa92d165aa4d36a
+    m_Address: Assets/Drone Controller/Textures/DryGrass3 Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea73a7a27b7d25444a18b203685bfca0
+    m_Address: Assets/Drone Controller/Textures/FanMain Emission.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a83598aab4bc83c4183255f438f0588e
+    m_Address: Assets/Drone Controller/Textures/Goalie Albedo.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c00af2bc8e4b9dd4898ad17a6e185861
+    m_Address: Assets/Drone Controller/Textures/Logo Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a86a36bace7ac840b5b42b73b5ff650
+    m_Address: Assets/Drone Controller/Textures/Logo Emission.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6bf555ed09898342a42f3b18518f459
+    m_Address: Assets/Drone Controller/Textures/PlatformLogos Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 828aa8a72c094914db62053e0ecd9104
+    m_Address: Assets/Drone Controller/Textures/Rock Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff858080a5af6742aa9250caa40964f
+    m_Address: Assets/Drone Controller/Textures/Rock Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfd794afb0803e349be60d7d51380ecd
+    m_Address: Assets/Drone Controller/Textures/RockyGrass Albedo.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c51ef76a185cb9448951882b1497726d
+    m_Address: Assets/Drone Controller/Textures/SoccerBall Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e7e7f5731c497c4c807e88d4edfcd9c
+    m_Address: Assets/Drone Controller/Textures/SoccerBall Normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0897237c8b0b8b44847cd0528fbba92
+    m_Address: Assets/Drone Controller/Textures/SoccerNet Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a101cd74771bd8a44afda1f6eae65b66
+    m_Address: Assets/Drone Controller/Textures/TrafficCone Albedo.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d3874863a8714c49b4e814348f9e6be
+    m_Address: Assets/Drone Controller/Textures/TrafficCone Normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a87161a2cb511264f8ce4147ddd18772
+    m_Address: Assets/Drone Controller/Textures/ViveDroneRemote_albedo.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82156d6a5c5a8d645b2b3e5d9dbe29b8
+    m_Address: Assets/Drone Controller/Textures/ViveDroneRemote_normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31617a6cc36e8224ba66754e3e0ce615
+    m_Address: Assets/Drone Controller/Animations/goalie.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53dbc5bc20fcc2f4b8f74a15c5379b2e
+    m_Address: Assets/Drone Controller/Sounds
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 474f664eec104604fa829601aa7dd94c
+    m_Address: Assets/Drone Controller/Materials/SoccerGoal.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 409f574d5e06c784f8cfb41567dd2e8c
+    m_Address: Assets/Drone Controller/Meshes/FBX Mesh SoccerNet.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff4b32a2dd723c44c9407b2764852c97
+    m_Address: Assets/Drone Controller/Misc/_TerrainAutoUpgrade/layer_DryGrass Albedo(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a356ed401602f747838970ccf1458bc
+    m_Address: Assets/Drone Controller/Scenes/DC_Main.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fbc069a6d43c5046b019459fba692b5
+    m_Address: Assets/Drone Controller/Scenes/DronePlaygroundSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e477e72364e2cb4998c93ef5493c180
+    m_Address: Assets/Drone Controller/Shaders/VertexAlpha.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8b106aaa4a25af47a0a0243b831192d
+    m_Address: Assets/Drone Controller/Sprites/ArrowLeft.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03e7deb162d56664c9d1095531123a54
+    m_Address: Assets/Drone Controller/Textures/_BumbleBee Albedo 2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 216e9df37ac89884184584d3de3527c3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 158b9318f65e80d47aaca9987e1c61ae, type: 2}
+    - {fileID: 11400000, guid: aba013df289a0064ba25728726bc7840, type: 2}
