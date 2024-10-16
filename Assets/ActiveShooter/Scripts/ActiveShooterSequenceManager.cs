@@ -315,6 +315,34 @@ public class ActiveShooterSequenceManager : MonoBehaviour
     private Transform m_CarPoint;
     [SerializeField]
     private SequenceDetails m_Seq3_48Tele;
+    [SerializeField]
+    private SequenceDetails m_Seq3_48Radio;
+    [SerializeField]
+    private SequenceDetails m_Seq3_48;
+    [SerializeField]
+    private SequenceDetails m_Seq3_48_5Radio;
+    [SerializeField]
+    private PlayableAsset m_EndTimeline;
+    [SerializeField]
+    private Transform m_ElectricPoint;
+
+    [SerializeField]
+    private SequenceDetails m_Seq3_49Radio;
+    [SerializeField]
+    private SequenceDetails m_Seq3_49Observation;
+    [SerializeField]
+    private SequenceDetails m_Seq3_49_Radio;
+
+    [SerializeField]
+    private SequenceDetails m_Seq3_50_1Radio;
+    [SerializeField]
+    private SequenceDetails m_Seq3_50_2Option;
+    [SerializeField]
+    private SequenceDetails m_Seq3_50_3Observe;
+    [SerializeField]
+    private SequenceDetails m_Seq3_50_4Radio;
+    [SerializeField]
+    private Transform m_BodyPoint;
 
 
 
@@ -348,24 +376,25 @@ public class ActiveShooterSequenceManager : MonoBehaviour
     private void Start()
     {
 
-       /* Action currentAction = null;
-        if(PlayerPrefs.GetInt("GameStatus", 0) == 0)
+        Action currentAction = null;
+        if (PlayerPrefs.GetInt("GameStatus", 0) == 0)
         {
             StartInitialSequence();
-        }else if(PlayerPrefs.GetInt("GameStatus", 0) == 1)
+        }
+        else if (PlayerPrefs.GetInt("GameStatus", 0) == 1)
         {
             StartSequence15();
         }
         else
         {
             StartSequence37_1();
-        }*/
-       
-       
-      
-       // StartSequence31_1();
-       // StartSequence28_1();      
-       // StartSequence1_1(); 
+        }
+
+
+
+        // StartSequence31_1();
+        // StartSequence28_1();      
+        // StartSequence1_1(); 
     }
     private void OnEnable()
     {
@@ -1002,10 +1031,10 @@ public class ActiveShooterSequenceManager : MonoBehaviour
 
     public void StartSequence34()
     {
-      
+
         m_Seq2_38.Sequence.SetActive(false);
         m_Seq2_34.Sequence.SetActive(true);
-       
+
         s_GuideAudioClip?.Invoke(m_Seq2_34.Clip);
 
     }
@@ -1017,14 +1046,14 @@ public class ActiveShooterSequenceManager : MonoBehaviour
         m_SequenceTeleportedWaypoints.SetActive(true);
 
         s_GuideAudiolessClip?.Invoke();
-        
+
     }
 
     public void Reset2_2Teleportation(bool status)
     {
         m_SequenceTeleportedPoints.Sequence.SetActive(status);
         m_SequenceTeleportedWaypoints.SetActive(status);
-       
+
         if (status)
         {
             s_PlayerPositionCallback?.Invoke(m_CentralHub2_2.position);
@@ -1051,7 +1080,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
     public void StartSequence35_3_1()
     {
         m_Seq2_34_3.Sequence.SetActive(false);
-      
+
         m_Seq2_35_3_1.Sequence.SetActive(true);
 
         s_GuideAudiolessClip?.Invoke();
@@ -1087,7 +1116,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
             m_Seq2_36_3.Sequence.SetActive(true);
             s_GuideAudiolessClip?.Invoke();
         });
-        
+
 
     }
 
@@ -1121,7 +1150,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
 
     public void StartSequence38_3()
     {
-        
+
         m_Seq3_38_2.Sequence.SetActive(false);
         m_Seq3_38_3.Sequence.SetActive(true);
 
@@ -1130,12 +1159,12 @@ public class ActiveShooterSequenceManager : MonoBehaviour
 
     public void StartSequence38_4()
     {
-       
+
         m_Seq3_38_2.Sequence.SetActive(false);
         m_Seq3_38_3.Sequence.SetActive(false);
         m_Seq3_38_4.Sequence.SetActive(true);
         s_GuideAudiolessClip?.Invoke();
-       
+
     }
 
     public void StartSequence40_InitialTeleportation()
@@ -1214,7 +1243,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
             m_Seq3_4Option1Conversation1.Sequence.SetActive(true);
             s_GuideAudiolessClip?.Invoke();
         });
-        
+
     }
 
     public void StartSequence44Option1Converation2()
@@ -1309,7 +1338,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
         s_GuideAudioClip?.Invoke(m_Seq3_4Option2LastOption.Clip);
 
     }
-        
+
     public void StartSequence44Option2Radio()
     {
         m_Seq3_4Option2.Sequence.SetActive(false);
@@ -1348,7 +1377,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
         s_GuideAudioClip?.Invoke(m_Seq3_44_2.Clip);
     }
 
-    public void  StartSequence45_2()
+    public void StartSequence45_2()
     {
         s_ResumeTimelineCall?.Invoke();
         m_Seq3_44_2.Sequence.SetActive(false);
@@ -1414,11 +1443,11 @@ public class ActiveShooterSequenceManager : MonoBehaviour
         m_Seq3_46Radio.Sequence.SetActive(false);
         m_Seq3_47RadioPlaypack.Sequence.SetActive(false);
         m_Seq3_47Options.Sequence.SetActive(true);
-        
-        s_GuideAudioClip?.Invoke(m_Seq3_47Options.Clip);    
+
+        s_GuideAudioClip?.Invoke(m_Seq3_47Options.Clip);
     }
 
-   
+
 
     public void StartSequence47Conversation1()
     {
@@ -1443,7 +1472,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
     }
     public void StartSequence47Radio()
     {
-       
+
         m_Seq3_47Conversation1.Sequence.SetActive(false);
         m_Seq3_47Conversation2.Sequence.SetActive(false);
         m_Seq3_47Conversation3.Sequence.SetActive(false);
@@ -1465,7 +1494,7 @@ public class ActiveShooterSequenceManager : MonoBehaviour
 
     public void ResetCarPoint(bool isCorrect)
     {
-     //   m_Sequence63Observation.SetActive(!isCorrect);
+        //   m_Sequence63Observation.SetActive(!isCorrect);
         if (!isCorrect)
         {
             m_Seq3_48Tele.Sequence.SetActive(false);
@@ -1475,14 +1504,135 @@ public class ActiveShooterSequenceManager : MonoBehaviour
         }
         else
         {
-
+            StartSequence48_Radio();
             Debug.Log("The next sequence Triggered");
-           // StartSequence63_2();
+            // StartSequence63_2();
         }
     }
 
+    public void StartSequence48_Radio()
+    {
 
-    
+
+        m_Seq3_48Tele.Sequence.SetActive(false);
+        m_Seq3_48Radio.Sequence.SetActive(true);
+
+        s_GuideAudioClip?.Invoke(m_Seq3_48Radio.Clip);
+    }
+
+
+    public void StartSequence48Observation()
+    {
+
+
+        m_Seq3_48Tele.Sequence.SetActive(false);
+        m_Seq3_48Radio.Sequence.SetActive(false);
+        m_Seq3_48.Sequence.SetActive(true);
+
+        s_GuideAudioClip?.Invoke(m_Seq3_48.Clip);
+    }
+
+    public void StartSequence48_5Radio()
+    {
+        s_UpdateTimelineCall?.Invoke(m_EndTimeline);
+       
+
+        m_Seq3_48Tele.Sequence.SetActive(false);
+        m_Seq3_48Radio.Sequence.SetActive(false);
+        m_Seq3_48.Sequence.SetActive(false);
+        m_Seq3_48_5Radio.Sequence.SetActive(true);
+
+        s_GuideAudioClip?.Invoke(m_Seq3_48_5Radio.Clip);
+    }
+
+    public void StartSequence49Radio()
+    {
+
+        s_PlayerPositionCallback?.Invoke(m_ElectricPoint.position);
+        s_PlayerRotationCallback?.Invoke(m_ElectricPoint.rotation);
+
+        m_Seq3_48_5Radio.Sequence.SetActive(false);
+        m_Seq3_49Radio.Sequence.SetActive(true);
+
+        s_GuideAudioClip?.Invoke(m_Seq3_49Radio.Clip);
+    }
+
+
+    public void StartSequence49Observation()
+    {
+
+
+
+        m_Seq3_48_5Radio.Sequence.SetActive(false);
+        m_Seq3_49Radio.Sequence.SetActive(false);
+        m_Seq3_49Observation.Sequence.SetActive(true);
+        s_GuideAudioClip?.Invoke(m_Seq3_49Observation.Clip);
+    }
+
+    public void StartSequence49_3Radio()
+    {
+
+        m_Seq3_48_5Radio.Sequence.SetActive(false);
+        m_Seq3_49Radio.Sequence.SetActive(false);
+        m_Seq3_49Observation.Sequence.SetActive(false);
+        m_Seq3_49_Radio.Sequence.SetActive(true);
+        s_GuideAudioClip?.Invoke(m_Seq3_49_Radio.Clip);
+    }
+
+
+    public void StartSequence50_1Radio()
+    {
+        s_PlayerPositionCallback?.Invoke(m_BodyPoint.position);
+        s_PlayerRotationCallback?.Invoke(m_BodyPoint.rotation);
+
+        m_Seq3_48_5Radio.Sequence.SetActive(false);
+        m_Seq3_49Radio.Sequence.SetActive(false);
+        m_Seq3_49Observation.Sequence.SetActive(false);
+        m_Seq3_49_Radio.Sequence.SetActive(false);
+        m_Seq3_50_1Radio.Sequence.SetActive(true);
+        s_GuideAudioClip?.Invoke(m_Seq3_50_1Radio.Clip);
+    }
+    public void StartSequence50_2Option()
+    {
+
+       
+        m_Seq3_50_1Radio.Sequence.SetActive(false);
+        m_Seq3_50_2Option.Sequence.SetActive(true);
+        s_GuideAudioClip?.Invoke(m_Seq3_50_2Option.Clip);
+    }
+
+    public void StartSequence50_3Observation()
+    {
+
+
+        m_Seq3_50_1Radio.Sequence.SetActive(false);
+        m_Seq3_50_2Option.Sequence.SetActive(false);
+        m_Seq3_50_3Observe.Sequence.SetActive(true);
+        s_GuideAudioClip?.Invoke(m_Seq3_50_3Observe.Clip);
+    }
+    public void StartSequence50_4Radio()
+    {
+
+
+        m_Seq3_50_1Radio.Sequence.SetActive(false);
+        m_Seq3_50_2Option.Sequence.SetActive(false);
+        m_Seq3_50_3Observe.Sequence.SetActive(false);
+        m_Seq3_50_4Radio.Sequence.SetActive(false);
+        s_GuideAudioClip?.Invoke(m_Seq3_50_4Radio.Clip);
+    }
+
+    public void SequenceEnds()
+    {
+        // Get the currently active scene
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        // Reload the current scene
+        SceneManager.LoadScene(currentScene.name);
+    }
+
+
+
+
 
 
 

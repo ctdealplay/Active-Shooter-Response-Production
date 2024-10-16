@@ -23381,7 +23381,8 @@ MonoBehaviour:
   - m_GUID: 328e26668ad9e80468e6300c669f7345
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence44.1.mp3
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 36ed1c1cc0a691948aa5cce4ee5f3485
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence1.46(Conversation
@@ -23411,7 +23412,8 @@ MonoBehaviour:
   - m_GUID: c763875a1ab804d42a242bb93d14190c
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/BystanderQuestion5.mp3
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 661960ebe1028c74cad581e22760ce41
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence47Radio.mp3
@@ -23428,15 +23430,409 @@ MonoBehaviour:
   - m_GUID: 6ba8ddad05c243d4a810655a58bdec9e
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Teleportation/point2.mp3
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1aaf7552a1c392c4bb493a6092ea236d
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Teleportation/point3.mp3
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a4002838de989a4d9dee7321429b0d9
     m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Teleportation/Sequence48InitialTeleportation.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc51d700abaf4048811741300d486d6
+    m_Address: Assets/Active_Shooter/SM_Prop_ShoppingCart_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b8d9d1cceceead4ba6ba84b70883a63
+    m_Address: Assets/Active_Shooter/SM_Prop_ShoppingCart_01_Insert_03.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0438e0ffaf659b84681e67238fb16395
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer54.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf0277cd35ac838418bc0c19509ec91a
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer57.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fef9d729f1550240b4ca6e93772c8eb
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question56.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a789b00a9fd466469ffc4203b2df474
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question54.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae7352fdf59fc5943a638d88b026a5eb
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question53.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513e25b1be3bee3438b7956855e8a81d
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer55.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 701f5294c7612834ea5338279e59c006
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer56.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1398b6200108b84692a92e2cac40790
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question58.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa12636e008c440489efda50610844c2
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer58.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ca6b1cf26e54d47a287267f7f6e9da
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Answer53.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3979a013f13d1ab49a18d7733568dcc0
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question57.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2df3565a150c0294780c8d05ca1901d2
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions/Question55.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 178f3e74eb2e7744b9e9a4ae4f01f48d
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Answer59.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf5f99dba08e5e478a7123075a801eb
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Question61.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d77e3652a9ee978448aa365015919b3b
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Question62.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d90fd135be36d1428b8db5bfcfee7ea
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Answer62.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723399820421d3444b40a7d27742931e
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Answer60.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e2173cda8233374f9ef87482b8e9176
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Answer63.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f035ada240f8c98428296db5539cd354
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Question60.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3abe1f78a8ae7da46825b4de247575e8
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Answer61.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d15fd539bdf8b34695aa5cc34ecb916
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Question59.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d74be8882f9fbb49bc8de36fda6485f
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3/Question63.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 606927c69c928f54a9332e1beada6884
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/BystanderQuestion4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22087e702e73be844bb23b86669907ac
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence1.47(Conversation
+      Panel).mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66e73126c8d2e52468f5b6a9527d40bd
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/BystanderAnswer4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a7c943058d0b154d809bad9233efb2d
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/RadioPlayback45_1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0d9130c48bfd0c48b38c1ab0a3f7c33
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence48Radio.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d306311ae9bed04ba158e1aa9d1bde9
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50/Seq50_1Radio.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67432f71c090eac4494b931b1bfd5675
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50/m_Seq3_50_3Observe.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 176db9d49f7d8fe42a8c81dee8dc1c11
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50/LastQuestion1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92213f349b03acf4babce429f8721d54
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50/LastAnswer1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bef874b7f11a1ca43abda45024bdcff6
+    m_Address: Assets/Active_Shooter/ResuableItems/ObservationWaypointsSequence31.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8699b021f8733f24ba815da6747f642d
+    m_Address: Assets/ActiveShooter/ResuableItems/CarObservations.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ee179a77794c6241956df747dc1665d
+    m_Address: Assets/ActiveShooter/ResuableItems/InteractiveObjects.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a45e48e583454644395cda0e3db37707
+    m_Address: Assets/ActiveShooter/ResuableItems/ObservationWaypoints.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbcee4a9c8497c44bbe443691821fec7
+    m_Address: Assets/ActiveShooter/ResuableItems/ObservationWaypointsSequence44
+      (1).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6f3be18612ac9940901b12c8a78c6a7
+    m_Address: Assets/ActiveShooter/ResuableItems/TeleportedPoints34_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a17b98ba3dc9d24448fd250675a857ca
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 777eaa3caa107a940b0625015f8d32ec
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Teleportation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35aad1304f4ed62428bcc29ddb66a716
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d75018d09a92b2841b3d850c089d3b61
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d7cf70bbb3570e4b95e855956531dcb
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30aaac1e99b89f14d9cec13034ae7ac2
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4239f1e0743af7f499829ed6526960e8
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence48Observation.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceabfee30fec9c34da35f215e67a8e90
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq48_5Radio.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50de6b75880cdea4698f47ec2f659283
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq48_5Radio 1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de38d1b7049c2864dba5a7ef56d3951f
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq49_1Radio.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1d1a45e97268a7479ca780015874553
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Sequence49Observation.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12244e53450e88744a614a0aa0a3429a
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq49_3Radio.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aaf70ab96cf04b4e8358c8340794de7
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5be4628d6293a645aa4613b5e8308fd
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337919ec095a96741beb6682abe43667
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer/Answer50.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1df797809636d1c43a3d38a00df5ca40
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer/Answer51.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85dcb55504235c840b729ae80033d47c
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer/Answer52.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf30ade69f4899b4aab9f11270658c8c
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer/Answer49.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 904d5302fb95204478089bb23c17cba7
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Answer/Answer48.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8b500c94d5f4174fae94a040188a351
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question/Question51.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4389c6b106c00a34880337dbb5af0956
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question/Question48.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8d7f76124e7d3c46bb2c7e8f46051a7
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question/Question49.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ffc172c413f49442b20ef7fdef5d285
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question/Question50.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e5d52ddb6639044eaf6699d3056e9b4
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Obseravtaion1/Question/Question52.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a3b65fbf4806f64a8058be704d8f9dc
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Observation2/Questions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc40cba38659e7e439a77ed14b1b97c1
+    m_Address: Assets/ActiveShooter/GuideAudios/Sequence3/3_2/Seq50/m_Seq3_50_4Radio.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
