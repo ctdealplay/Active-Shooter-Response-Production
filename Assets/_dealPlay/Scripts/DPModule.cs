@@ -46,6 +46,8 @@ public class DPModule : MonoBehaviour
     private static Action s_DisablePlayButtons;
     [SerializeField]
     private string m_SceneName;
+    [SerializeField]
+    private Image m_FillImage;
     #endregion
 
     #region Public_Methods
@@ -97,8 +99,9 @@ public class DPModule : MonoBehaviour
             if (m_SceneHandle.IsValid())
             {
                 float percent = m_SceneHandle.GetDownloadStatus().Percent;
+                m_FillImage.fillAmount = percent;
                 m_ProgressText.text = percent * 100 + "%";
-
+    
                 if (m_SceneHandle.PercentComplete == 1f)
                 {
                     Addressables.Release(m_SceneHandle);

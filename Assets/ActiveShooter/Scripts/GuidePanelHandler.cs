@@ -20,24 +20,42 @@ public class GuidePanelHandler : MonoBehaviour
     private string m_AutomatedFunctioName;
     [SerializeField]
     private GameObject m_ConversationPanel;
+    [SerializeField]
+    private GameObject m_SkipButton;
     #endregion
 
     #region Public_Vars
     public static Action s_OnGuideSkips;
     public static Action<string> s_AutomatedFunctionCallback;
+    [SerializeField]
+    private bool m_CanChangeAngle;
+    [SerializeField]
+    private float m_ChangeAngle;
+
+    [SerializeField]
+    private GameObject m_CentralizedTeleportaton;
     #endregion
 
     #region Unity_Callbacks
     private void OnEnable()
     {
+        if(m_CanChangeAngle)
+        {
+            ActiveShooterManager.Instance.AngleCallback(m_ChangeAngle);
+        }
         if (m_GuidePanel != null)
-            m_GuidePanel.SetActive(false);  
+            m_GuidePanel.SetActive(false);
         if (m_IsAutomatedPanel)
         {
             s_AutomatedFunctionCallback?.Invoke(m_AutomatedFunctioName);
         }
-        ActivateObservationPoints();
-        ActivateTeleportPoints();
+        if (m_CentralizedTeleportaton != null)
+        {
+            m_CentralizedTeleportaton.SetActive(true);
+            ActiveShooterManager.Instance.ToggleVisionUI(true);
+        }
+        // ActivateObservationPoints();
+        // ActivateTeleportPoints();
         GuideAudioHandler.s_PanelCallback += OnGuideCallback;
         ActiveShooterGuideManager.s_DeactiveObservationCallback += DeactiveVision;
         ActiveShooterSequenceManager.s_ConversationCallback += ActivateConversation;
@@ -47,6 +65,11 @@ public class GuidePanelHandler : MonoBehaviour
 
     private void OnDisable()
     {
+        if(m_CentralizedTeleportaton != null)
+        {
+            m_CentralizedTeleportaton.SetActive(false);
+
+        }
         GuideAudioHandler.s_PanelCallback -= OnGuideCallback;
         ActiveShooterGuideManager.s_DeactiveObservationCallback -= DeactiveVision;
         ActiveShooterSequenceManager.s_ConversationCallback -= ActivateConversation;
@@ -60,7 +83,8 @@ public class GuidePanelHandler : MonoBehaviour
     #region Private_Methods
     private void ActivateConversation()
     {
-        m_ConversationPanel?.SetActive(true);
+        if (m_ConversationPanel != null)
+            m_ConversationPanel?.SetActive(true);
     }
     private void ActivateObservationPoints()
     {
@@ -86,6 +110,7 @@ public class GuidePanelHandler : MonoBehaviour
     {
         if (m_NextSequence != null)
         {
+            Debug.Log("Teleport Test 3");
             this.gameObject.SetActive(false);
             m_NextSequence.SetActive(true);
             if (m_ObservationPoints != null)
@@ -96,7 +121,7 @@ public class GuidePanelHandler : MonoBehaviour
             {
                 m_TeleportPoints.SetActive(false);
             }
-            if(m_ConversationPanel != null)
+            if (m_ConversationPanel != null)
             {
                 m_ConversationPanel.SetActive(false);
             }
@@ -108,12 +133,22 @@ public class GuidePanelHandler : MonoBehaviour
     {
         Utilities.ExecuteAfterDelay(Constants.GUIDE_DELAY, () =>
         {
+            if(m_SkipButton != null)
+            {
+                m_SkipButton.SetActive(false);
+            }
             if (m_GuidePanel != null)
                 m_GuidePanel.SetActive(true);
-            if (m_ObservationPoints != null || m_TeleportPoints != null)
+            if (m_ObservationPoints != null)
             {
                 ActiveShooterManager.Instance.ToggleVisionUI(true);
             }
+            if(m_TeleportPoints != null)
+            {
+                ActiveShooterManager.Instance.ToggleVisionUI(true, true);
+            }
+            ActivateTeleportPoints();
+            ActivateObservationPoints();
 
         });
 

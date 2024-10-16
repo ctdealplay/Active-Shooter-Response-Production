@@ -26,6 +26,8 @@ public class ActiveShooterTeleportation : MonoBehaviour
     private GameObject m_Replay;
     [SerializeField]
     private GameObject m_Continue;
+    [SerializeField]
+    private GameObject m_BackPanel;
     #endregion
 
     #region Public_Vars
@@ -58,6 +60,7 @@ public class ActiveShooterTeleportation : MonoBehaviour
     {
         m_Replay.SetActive(status);
         m_Continue.SetActive(status);
+        m_BackPanel.SetActive(status);
     }
 
 

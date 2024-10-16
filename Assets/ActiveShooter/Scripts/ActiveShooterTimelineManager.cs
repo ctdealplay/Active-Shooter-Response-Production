@@ -19,6 +19,7 @@ public class ActiveShooterTimelineManager : MonoBehaviour
         ActiveShooterSequenceManager.s_UpdateTimelineCall += UpdateCoupleTimeline;
         ActiveShooterGuideManager.s_UpdateTimeline += UpdateCoupleTimeline;
         ActiveShooterSequenceManager.s_PauseTimelineCall += PauseTimeline;
+        ActiveShooterSequenceManager.s_ResumeTimelineCall += ResumeTimeline;
         TeleportInteractable.s_UpdateTimeline += UpdateCoupleTimeline;
     }
 
@@ -27,6 +28,7 @@ public class ActiveShooterTimelineManager : MonoBehaviour
         ActiveShooterSequenceManager.s_UpdateTimelineCall -= UpdateCoupleTimeline;
         ActiveShooterGuideManager.s_UpdateTimeline -= UpdateCoupleTimeline;
         ActiveShooterSequenceManager.s_PauseTimelineCall -= PauseTimeline;
+        ActiveShooterSequenceManager.s_ResumeTimelineCall -= ResumeTimeline;
         TeleportInteractable.s_UpdateTimeline -= UpdateCoupleTimeline;
     }
 
@@ -37,6 +39,10 @@ public class ActiveShooterTimelineManager : MonoBehaviour
     private void PauseTimeline()
     {
         m_MainTimeline.Pause();
+    }
+    private void ResumeTimeline()
+    {
+        m_MainTimeline.Play();
     }
 
     public void UpdateCoupleTimeline(PlayableAsset currentTimeLine)

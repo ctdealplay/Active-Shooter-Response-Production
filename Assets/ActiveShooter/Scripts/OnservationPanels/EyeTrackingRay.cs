@@ -41,6 +41,8 @@ public class EyeTrackingRay : MonoBehaviour
     [SerializeField]
     private float m_HoverEndTime;
     private Coroutine m_InteractedCoroutine;
+    [SerializeField]
+    private bool m_CanSnap;
     #endregion
 
     #region Public_Vars
@@ -65,10 +67,12 @@ public class EyeTrackingRay : MonoBehaviour
     private void OnEnable()
     {
         ActiveShooterManager.s_VisonUIActivatedCallback += OnVisionActivated;
+        ActiveShooterGuideManager.s_ObservationDotsCallbacks += CheckInteractionState;
     }
-    private void OnDisable()    
+    private void OnDisable()
     {
         ActiveShooterManager.s_VisonUIActivatedCallback -= OnVisionActivated;
+        ActiveShooterGuideManager.s_ObservationDotsCallbacks -= CheckInteractionState;
 
     }
 
@@ -80,6 +84,10 @@ public class EyeTrackingRay : MonoBehaviour
             TrackSphereTeleportaion(rayctDirection);
             HandleTeleportInteraction(rayctDirection);
         }
+
+
+
+
         if (!ActiveShooterManager.Instance.IsVisionUIActivated)
         {
             if (!ActiveShooterManager.Instance.IsTeleportationActivated)
@@ -91,22 +99,27 @@ public class EyeTrackingRay : MonoBehaviour
         }
 
         Vector3 raycastDirection = transform.TransformDirection(Vector3.forward) * rayDistance;
-        TrackSphere(raycastDirection);
         HandleObjectInteraction(raycastDirection);
+        TrackSphere(raycastDirection);
         HandleTeleportInteraction(raycastDirection);
+    }
+
+    private void CheckInteractionState(Action ac)
+    {
+        m_IsInteracting = false;
     }
 
     private void HandleObjectInteraction(Vector3 raycastDirection)
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, raycastDirection, out hit, Mathf.Infinity, layersToInclude) && !m_IsInteracting)
+        if (Physics.Raycast(transform.position, raycastDirection, out hit, Mathf.Infinity, layersToInclude) && !m_IsInteracting && (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger)))
         {
             lineRenederer.startColor = rayColorHoverState;
             lineRenederer.endColor = rayColorHoverState;
             var eyeInteractable = hit.transform.GetComponent<EyeInteractable>();
             if (eyeInteractable != null)
             {
-
+                
                 /*   s_DisableInteractables?.Invoke();
                    s_EnableInteractables?.Invoke(eyeInteractable.id);
                    m_IsInteracting = true;*/
@@ -122,27 +135,36 @@ public class EyeTrackingRay : MonoBehaviour
 
 
 
-                // Increment the hover timer
-                m_HoverTimer += Time.deltaTime;
-                float hoverDuration = Time.time - m_HoverStartTime;
+                m_HoverEndTime = Time.time;
+                s_DisableLoader?.Invoke();
+                s_DisableInteractables?.Invoke();
+                s_EnableInteractables?.Invoke(eyeInteractable.id);
+                m_IsInteracting = true;
 
-                // Disable the frame object after the specified duration
-                if (hoverDuration >= Constants.HOVERED_TIME)
-                {
-                    m_HoverEndTime = Time.time;
-                    s_DisableLoader?.Invoke();
-                    s_DisableInteractables?.Invoke();
-                    s_EnableInteractables?.Invoke(eyeInteractable.id);
-                    m_IsInteracting = true;
-                }
+
+                /* // Increment the hover timer
+                 m_HoverTimer += Time.deltaTime;
+                 float hoverDuration = Time.time - m_HoverStartTime;
+
+                 // Disable the frame object after the specified duration
+                 if (hoverDuration >= Constants.HOVERED_TIME)
+                 {
+                     m_HoverEndTime = Time.time;
+                     s_DisableLoader?.Invoke();
+                     s_DisableInteractables?.Invoke();
+                     s_EnableInteractables?.Invoke(eyeInteractable.id);
+                     m_IsInteracting = true;
+                 }*/
 
             }
+
         }
         else
         {
             s_DisableLoader?.Invoke();
             m_InteractedId = -1;
             m_HoverTimer = 0f;
+           
         }
 
     }
@@ -150,7 +172,7 @@ public class EyeTrackingRay : MonoBehaviour
     private void HandleTeleportInteraction(Vector3 raycastDirection)
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, raycastDirection, out hit, Mathf.Infinity, m_TeleportLayer))
+        if (Physics.Raycast(transform.position, raycastDirection, out hit, Mathf.Infinity, m_TeleportLayer) && (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger)))
         {
             lineRenederer.startColor = rayColorHoverState;
             lineRenederer.endColor = rayColorHoverState;
@@ -164,12 +186,19 @@ public class EyeTrackingRay : MonoBehaviour
                     s_DisableTeleporter?.Invoke();
                     s_InteractedTeleporter?.Invoke(eyeInteractable.id);
                 }
-                float hoverDuration = Time.time - m_HoverTeleportStartTime;
-                // Disable the frame object after the specified duration
-                if (hoverDuration >= Constants.TELEPORTED_TIME)
-                {
-                    s_EnableTeleporter?.Invoke(eyeInteractable.id);
-                }
+
+
+
+
+
+                s_EnableTeleporter?.Invoke(eyeInteractable.id);
+
+                /*  float hoverDuration = Time.time - m_HoverTeleportStartTime;
+                  // Disable the frame object after the specified duration
+                  if (hoverDuration >= Constants.TELEPORTED_TIME)
+                  {
+                      s_EnableTeleporter?.Invoke(eyeInteractable.id);
+                  }*/
             }
         }
         else
@@ -179,9 +208,13 @@ public class EyeTrackingRay : MonoBehaviour
         }
     }
 
-    private RaycastHit TrackSphere(Vector3 raycastDirection)
+    private void TrackSphere(Vector3 raycastDirection)
     {
+
         RaycastHit hit;
+       
+
+
         float sphereRadius = 0.1f; // Adjust this radius as needed
 
         if (Physics.Raycast(transform.position, raycastDirection, out hit, Mathf.Infinity, (layersToInclude | m_TempLayer)))
@@ -207,11 +240,11 @@ public class EyeTrackingRay : MonoBehaviour
             m_TrackingSphere.SetActive(false);
         }
 
-        return hit;
+        /* skchnages return hit;*/
     }
 
 
-  
+
 
     private RaycastHit TrackSphereTeleportaion(Vector3 raycastDirection)
     {

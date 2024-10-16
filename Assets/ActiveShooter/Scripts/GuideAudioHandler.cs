@@ -7,6 +7,8 @@ public class GuideAudioHandler : MonoBehaviour
 {
     #region Private_Vars
     private AudioSource m_AudioSource;
+    [SerializeField]
+    private AudioClip m_ShotClip;
 
     #endregion
     #region Public_Vars
@@ -23,6 +25,7 @@ public class GuideAudioHandler : MonoBehaviour
     {
         ActiveShooterSequenceManager.s_GuideAudioClip += OnGuideAudioRecieved;
         ActiveShooterSequenceManager.s_GuideAudiolessClip += OnGuideAudioRecieved;
+        ActiveShooterSequenceManager.s_PlayGunShotSequence += PlayGunShots;
         GuidePanelHandler.s_OnGuideSkips += OnSkip;
     }
 
@@ -30,6 +33,7 @@ public class GuideAudioHandler : MonoBehaviour
     {
         ActiveShooterSequenceManager.s_GuideAudioClip -= OnGuideAudioRecieved;
         ActiveShooterSequenceManager.s_GuideAudiolessClip -= OnGuideAudioRecieved;
+        ActiveShooterSequenceManager.s_PlayGunShotSequence -= PlayGunShots;
         GuidePanelHandler.s_OnGuideSkips -= OnSkip;
 
     }
@@ -56,6 +60,11 @@ public class GuideAudioHandler : MonoBehaviour
         });
     }
 
+    private void PlayGunShots()
+    {
+        StartCoroutine(nameof(PlayGunshotSequence));
+    }
+
     private void OnSkip()
     {
         if (m_AudioSource != null)
@@ -63,4 +72,18 @@ public class GuideAudioHandler : MonoBehaviour
     }
 
     #endregion
+
+
+    IEnumerator PlayGunshotSequence()
+    {
+        //AudioSource target = m_Sequence18.GetComponent<AudioSource>();
+        for (int gunShotIndex = 0; gunShotIndex < Constants.GUN_SHOTS; gunShotIndex++)
+        {
+            // Play the gunshot audio clip
+            m_AudioSource.PlayOneShot(m_ShotClip);
+
+            // Wait for the duration of the gunshot audio clip
+            yield return new WaitForSeconds(m_ShotClip.length);
+        }
+    }
 }

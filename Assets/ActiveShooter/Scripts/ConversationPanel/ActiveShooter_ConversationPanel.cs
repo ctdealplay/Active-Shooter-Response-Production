@@ -21,15 +21,19 @@ public class ActiveShooter_ConversationPanel : MonoBehaviour
     public static Action<int> s_NoResponseCall;
     public static Action<bool> s_ConversationToggle;
 
+  
     #endregion
 
     private void OnEnable()
     {
-       if(m_IsInitial)
+       
+       if (m_IsInitial) 
         {
             s_ConversationToggle?.Invoke(true);
         }
     }
+
+  
 
     private void OnDisable()
     {
@@ -72,5 +76,8 @@ public class ActiveShooter_ConversationPanel : MonoBehaviour
     }
 
     #endregion
+
+
+   
 
 }

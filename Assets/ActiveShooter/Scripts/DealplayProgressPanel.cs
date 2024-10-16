@@ -12,22 +12,28 @@ public class DealplayProgressPanel : MonoBehaviour
     private bool m_IsCompletion;
     [SerializeField]
     private TextMeshProUGUI m_TimerString;
+    [SerializeField]
+    private bool m_IsProgress;
     #endregion
 
     #region Unity_Callbacks
     private void OnEnable()
     {
-        Utilities.ExecuteAfterDelay(Constants.PROGRESS_DELAY, () =>
+        if (!m_IsProgress)
         {
-            this.gameObject.SetActive(false);
-            m_NextPanel.SetActive(true);
-        });
+            Utilities.ExecuteAfterDelay(Constants.PROGRESS_DELAY, () =>
+            {
+                this.gameObject.SetActive(false);
+                m_NextPanel.SetActive(true);
+            });
+        }
+        
 
         if(m_IsCompletion)
         {
             if (m_TimerString != null) 
             {
-                m_TimerString.text = "Time Taken: "+ActiveShooterManager.Instance.TimerString;
+                m_TimerString.text = "Congratulations! You have successfully de-escalated a potentially violent situation in " + ActiveShooterManager.Instance.TimerString;
             }
         }
     }

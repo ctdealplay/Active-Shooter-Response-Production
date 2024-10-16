@@ -144,12 +144,15 @@ public class TeleportInteractable : MonoBehaviour
                 }
                 transform.parent.parent.gameObject.SetActive(false);
                 ActiveShooterGuideManager.Instance.SetObservationSounds(m_SequenceName, false, false, true);
+                Debug.Log("The destruction call 1");
                 Destroy(this.gameObject);
                 return;
 
             }
             if (m_StaticTeleport)
             {
+                Debug.Log("The destruction call 2");
+
                 s_PlayerRotationCallback?.Invoke(m_TargetRotation);
                 s_PlayerPositionCallback?.Invoke(m_TargetPoint.position);
                 if(m_Destructable)
@@ -171,7 +174,7 @@ public class TeleportInteractable : MonoBehaviour
 
             if (m_ObserverTeleport)
             {
-               
+                Debug.Log("The destruction call 3");
                 this.GetComponent<MeshRenderer>().enabled = true;
                 this.GetComponent<BoxCollider>().enabled = true;
 

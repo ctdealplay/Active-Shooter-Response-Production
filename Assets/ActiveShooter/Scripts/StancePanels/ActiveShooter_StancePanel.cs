@@ -104,7 +104,7 @@ public class ActiveShooter_StancePanel : MonoBehaviour
     {
         m_CurrentState = m_CorrectStance;
         ToggleSelectionButtons(false);
-        ToggleStanceImages(true);
+      //      ToggleStanceImages(true);
 
     }
     public void OnCorrectButtonTap2(AudioClip clip)
